@@ -14,3 +14,20 @@ I am 30 years old, and this is a symbolic date to start something new. I work as
 + C
 + HTML
 + Git
+
+### Code Example
+
+```
+int multiply(int a, int b) {
+  int m = a * b;
+  return m;
+}
+```
+
+### Education
+
+**University:** Belarusian-Russian University, automated electric drives
+
+### Languages
++ **Russian** - Native
++ **English** - A2
