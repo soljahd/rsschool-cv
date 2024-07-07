@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
 </head>
-<body>
- Dzmitry Solahub
+
+<body class="wrapper">
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#code_example" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <aside class="aside">
+            <img class="avatar" src="./assets/img/avatar.jpg" alt="avatar">
+
+            <h2 id="contacts">Contacts</h2>
+            <ul class="contacts">
+                <li>Telegram: morvear</li>
+                <li>GitHub: soljahd</li>
+                <li>E-mail: moskuitoz@gamil.com</li>
+            </ul>
+
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+            </ul>
+
+            <h2 id="education">Education</h2>
+            <h4>University:</h4>
+            <p>Belarusian-Russian University, automated electric drives</p>
+            <h4>Languages:</h4>
+            <ul>
+                <li>Russian - Native</li>
+                <li>English - A2</li>
+            </ul>
+        </aside>
+
+        <article class="article">
+            <div class="name">
+                <h1>Dzmitry Solahub</h1>
+                <p class="job">student JS/FE Pre-School</p>
+            </div>
+
+            <h2 id="about_me">About Me</h2>
+            <p>I am 30 years old, and this is a symbolic date to start something new. I work as a design engineer,
+                developing boards for electronic transport control units. I want to gain new knowledge and apply it in
+                practice by implementing some of my projects. I hope everything works out for me and rsschool will help
+                me with this.</p>
+
+            <h2 id="code_example">Code Example</h2>
+            <pre><code>
+int multiply(int a, int b) {
+int m = a * b;
+return m;
+}
+            </code></pre>
+            <h2 id="projects">Projects</h2>
+            <a href="https://github.com/soljahd/rsschool-cv" class="projects-item">CV (сurriculum vitae)</a>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            © 2024 <a href="https://github.com/soljahd/" class="github-link">soljahd</a>
+        </div>
+        <div class="footer-right">
+            <a href="https://rs.school/courses/javascript-preschool-ru" class="rss-logo"><img src="./assets/svg/rss.svg" alt="RSS logo"
+                    class="rss-logo"></a>
+        </div>
+    </footer>
 </body>
+
 </html>
